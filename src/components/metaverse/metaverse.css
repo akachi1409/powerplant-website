@@ -1,0 +1,112 @@
+.metaverse_layout{
+    background-color: rgb(20,20,22);
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+
+.metaverse_section{
+    background-color: transparent;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(63,67,73);
+    height:700px;
+    margin: 0em 3em;
+    min-width: 1240px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.metaverse_left_bar{
+    flex: 6;
+    background-image: url(../../assets/header/metaverse-bg.jpg);
+    border-right: solid thin rgb(63,67,73);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.metaverse_left_title:first-child{
+    padding-top: 10em;
+    line-height: 1.4em;
+    font-size: 30px;
+    margin-bottom: 0em;
+}
+.metaverse_left_title:last-child{
+    padding-top: 0em;
+    margin-top: 0em;
+    line-height: 1.4em;
+    font-size: 30px;
+}
+.metaverse_right_text:first-child{
+    margin-top: 17em!important;
+    min-width:300px;
+    max-width:300px;
+    margin:0 auto;
+    line-height: 1.8em;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+.metaverse_right_text{
+    margin-top: 2em!important;
+    min-width:300px;
+    max-width:300px;
+    margin:0 auto;
+    line-height: 1.8em;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+.metaverse_right_bar{
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+}
+
+.metaverse_mint_container{
+    width: 100%;
+    position: relative;
+}
+
+.metaverse_mint{
+    float: left;
+    background-color: rgb(112,190,74);
+    font-size: 15px;
+    margin: 4em auto;
+    padding: 1em 2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+}
+.metaverse_mint:hover{
+    background-color:  black;
+    color: white;
+    transition: color 0.4s ease;
+}
+
+@media only screen and (max-width: 1000px) {
+    .metaverse_section{
+        border:none;
+        height:700px;
+        min-width: 0px;
+        margin-top: 7em;
+    
+        display: none;
+        flex-direction: column;
+    }
+
+    .metaverse_left_bar{
+        border-right: none;
+    }
+    .metaverse_left_title:first-child{
+        padding-top: 3em;
+    }
+    .metaverse_right_text:first-child{
+        margin-top: 2em!important;
+    }
+}

@@ -1,0 +1,55 @@
+.collapse-header-control {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: PoppinsExtraLight;
+}
+
+@font-face {
+    font-family: newThing;
+    src: url(/src/components/header/ArchivoNarrow-VariableFont_wght.ttf);
+  }
+
+.collapse-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.collapse-header h4 {
+    color: black;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #6FBD25;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0px;
+    font-size: 25px;
+}
+
+.collapse-header p {
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    /* margin-left: 20px; */
+    margin-bottom: 0px;
+    margin-top: 5px;
+    font-family: PoppinsExtraLight;
+}
+
+.collapse-content {
+    color:#8a8a8a;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "PoppinsExtraLight";
+    text-align: left;
+}
+.display-linebreak {
+    white-space: pre-line;
+  }

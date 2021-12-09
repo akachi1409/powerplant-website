@@ -1,0 +1,189 @@
+.header-control {
+    /* background-image: url('../../assets/DickBackground.png'); */
+    /* background-color: #ffffff; */
+    /* this can be changed to header-back or dickbackground */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 800px;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: 50% 100%;
+    font-family: newThing;
+    background-color: #141416;
+    overflow-x: hidden;
+}
+
+.nav-link-btn{
+    font-weight: 400!important;
+    font-size: 14px!important;
+    line-height: 50px;
+    font-style: normal;
+}
+@font-face {
+    font-family: newThing;
+    src: url(/src/components/header/ArchivoNarrow-VariableFont_wght.ttf);
+  }
+.mint-button{
+    transition-duration: .3s;
+    background-color: green;
+    color: black;
+    padding:10px;
+    min-width: 80px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    font-style: normal;
+    border: solid 1px black;
+    border-radius: 10px;
+    font-family: newThing;
+    width: 110px;
+    height:45px;
+}
+
+
+.mint-button:hover{
+    transition-duration: .3s;
+    color: white;
+    background-color: black;
+    border-color: white;
+}
+
+
+.header-control .navbar {
+    width: 100%;
+    /* background-image: linear-gradient(to bottom right, #7fff7f, white); */
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    /* max-width: 1000px; */
+    /* outline: 5px solid black; */
+    /* box-shadow: 0 0 0 3px rgb(0, 0, 0); */
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+.navbar-nav .nav-link{
+    color: rgb(255, 255, 255)!important;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-link:hover{
+    transition-duration: .4s;
+    color: #32CD32!important;
+}
+.home-title{
+    color: white!important;
+    font-style: normal;
+    font-size: 58px;
+    font-family: "PoppinsExtraLight";
+}
+.home-title-content{
+    color: white!important;
+    font-style: normal;
+    font-size: 30px;
+    font-family: "PoppinsExtraLight";
+}
+.social-button-container{
+    padding-top: 2em;
+    display: flex;
+    flex-direction: row;
+}
+.social-button-container .social-button{
+    padding-right: 1em;
+}
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@font-face {
+    font-family: newfont;
+    src: url(/src/newfont.ttf);
+}
+
+.header-content h1 {
+    font-size: 51px;
+    font-family: newfont;
+    color: black;
+    /* font-style: italic; */
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: 900;
+    text-align: center;
+    /* background-color: #6D3612; */
+    /* padding: 25px; */
+    /* border: solid 10px black;
+    border-radius: 20px; */
+}
+
+.header-nav {
+    position: absolute;
+    top: 20px;
+    max-width: 1200px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-item {
+    margin-right: 20px;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.nav-item :hover {
+    transition-duration: .4s;
+    color: blue;
+}
+
+.thePicture {
+    height: 0px;
+    border: solid black 0px;
+    border-radius: 0px;
+    padding: 0px;
+    /* background-color: #FF9859; */
+}
+
+
+@media (min-width: 767px) {
+    .header-control {
+        background-image: url('../../assets/header/header.jpeg');
+        /* background-color: white; */
+        /* this can be changed to header-back or dickbackground */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: 100vh;
+        background-repeat: repeat;
+        background-position: 100% 100%;
+    }
+
+    .thePicture {
+        height: 250px;
+        /* border: solid black 10px; */
+        /* border-radius: 20px; */
+        /* padding: 20px; */
+        /* background-color: #FF9859; */
+    }
+}

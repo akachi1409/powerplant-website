@@ -1,0 +1,99 @@
+.card_layout{
+    border: 2px solid rgb(27,28,30);
+    border-radius: 5px;
+    /* max-width: 240px; */
+    width: 180px;
+    max-height: 400px;
+    height:  400px;
+    background-color: rgb(27,28,30);
+    text-align: left;
+    display: inline-block;
+    /* margin-bottom: 1em; */
+    margin: 5px;
+}
+
+.card_svg{
+    margin-left: 40px;
+    margin-top: 0px;
+    width: 100px;
+    height: 100px;
+    fill: rgb(112,190,74);
+}
+
+.card_title{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(136,156,231);
+}
+
+.card_text{
+    margin: 25px;
+    margin-bottom: 0px;
+    line-height: 1.6em;
+    font-size: 13px;
+    color: rgb(138,138,138);
+    font-family: "open sans",sans-serif;
+}
+
+.card_text1{
+    margin: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 1.6em;
+    font-size: 13px;
+    color: rgb(138,138,138);
+    font-family: "open sans",sans-serif;
+}
+.card_bar{
+    border: 3px solid rgba(63, 67, 73, 0);
+    border-radius: 5px;
+    margin: 30px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .card_layout{
+        border: 2px solid rgba(27, 28, 30, 0);
+        border-radius: 5px;
+        max-width: 240px;
+        width: 130px;
+        max-height: 350px;
+        height:  0px;
+        background-color: rgb(27,28,30);
+        text-align: left;
+        /* margin-bottom: 1em; */
+        margin: 5px;
+        display: none;
+    }
+    
+    .card_svg{
+        margin-left: 30px;
+        margin-top: 0px;
+        width: 50px;
+        height: 50px;
+        fill: rgb(112,190,74);
+        display: none;
+    }
+    
+    .card_title{
+        text-align: center;
+        font-size: 10px;
+        color: rgb(136,156,231);
+        display: none;
+    }
+    
+    .card_text{
+        margin: 0px;
+        line-height: 0em;
+        font-size: 0px;
+        color: rgba(138, 138, 138, 0);
+        font-family: "open sans",sans-serif;
+        display: none;
+    }
+    
+    .card_bar{
+        border: 0px solid rgba(63, 67, 73, 0);
+        border-radius: 5px;
+        margin: 0px;
+        display: none;
+    }
+}
