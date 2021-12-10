@@ -128,10 +128,6 @@ class Header extends React.Component {
                             </Row>
                         </Container>
 
-                        <div className='header-content-buttons-container'>
-                            {/* <YButton text='DISCORD' /> &nbsp;
-                        <YButton text='TWITTER' /> */}
-                        </div>
                     </div>
                     <div></div>
                 </div>

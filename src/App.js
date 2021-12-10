@@ -23,23 +23,19 @@ import './assets/mainstyle.css'
 function App() {
   return (
     <div>
-      <Header />
-      {/* <img className="thePicture" src={il}/> */}
-      <State />
-      <About />
-      <Utility className="utilitysec"/>
-      <Meet />
+      {/* <Header />*/}
+       {/* <State />
+      <About />  */}
+     <Utility className="utilitysec"/>
+    {/*  <Meet />
 
-      <Mint />
-      {/* <TopItems /> */}
+       <Mint />
       <RoadMap />
       <Metaverse/>
 
-      {/* <FounderThing /> */}
       <Team />
-      {/* <JoinCommunity /> */}
       <Partners />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }

@@ -30,7 +30,15 @@
 
 }
 @media only screen and (max-width: 600px) {
+    .state_title{
+        padding-top: 1em;
+        font-style: normal;
+        font-size: 30px;
+        font-weight: 400;
+        font-family: "PoppinsExtraLight";
+    }
     .state_cards{
+        width: 100%;
         display: flex;
         flex-direction: column;
         padding: 0em 5em;
