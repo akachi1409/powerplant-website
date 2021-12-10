@@ -1,13 +1,16 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
+//import Assets
+import MintGif from '../../assets/legif.gif';
+import YButton from "../basic/YButton";
 
-import InfiniteCarousel from 'react-leaf-carousel';
 import { BsFileMinusFill, BsFilePlusFill } from 'react-icons/bs';
 
 //import CSS
 import './mint.css';
 import { useDispatch, useSelector } from "react-redux";
+import { connect } from "../../redux/blockchain/blockchainActions";
 import { fetchData } from "../../redux/data/dataActions";
 function Mint() {
     const dispatch = useDispatch();
@@ -79,77 +82,7 @@ function Mint() {
             <Container>
                 <Row>
                     <Col md={6} xs={12} className='mint-image'>
-                    <InfiniteCarousel
-                    breakpoints={[
-                        {
-                            breakpoint: 500,
-                            settings: {
-                                slidesToShow: 1,
-                                slidesToScroll: 1,
-                            },
-                        },
-                        {
-                            breakpoint: 768,
-                            settings: {
-                                slidesToShow: 2,
-                                slidesToScroll: 1,
-                            },
-                        },
-                        {
-                            breakpoint: 1280,
-                            settings: {
-                                slidesToShow: 3,
-                                slidesToScroll: 1,
-                            },
-                        },
-                    ]}
-                    dots={false}
-                    arrows={true}
-                    showSides={true}
-                    sidesOpacity={0.5}
-                    sideSize={0.1}
-                    slidesToScroll={1}
-                    slidesToShow={1}
-                    scrollOnDevice={true}
-                >
-                    <div>
-                        <img className="caroImg" src={"https://github.com/powerplantsnft/website/blob/main/12.png?raw=true"} alt='boy1' />
-                    </div>
-                    <div>
-                        <img className="caroImg" src={"https://github.com/powerplantsnft/website/blob/main/13.png?raw=true"} alt='boy2' />
-                    </div>
-                    <div>
-                        <img className="caroImg" src={"https://github.com/powerplantsnft/website/blob/main/14.png?raw=true"} alt='boy1' />
-                    </div>
-                    <div>
-                        <img className="caroImg" src={"https://github.com/powerplantsnft/website/blob/main/26.jpg?raw=true"} alt='boy2' />
-                    </div>
-                    <div>
-                        <img className="caroImg" src={"https://github.com/powerplantsnft/website/blob/main/33.jpg?raw=true"} alt='boy1' />
-                    </div>
-                    <div>
-                        <img className="caroImg" src={"https://github.com/powerplantsnft/website/blob/main/37.png?raw=true"} alt='boy2' />
-                    </div>
-                    <div>
-                        <img className="caroImg" src={"https://github.com/powerplantsnft/website/blob/main/40.png?raw=true"} alt='boy1' />
-                    </div>
-                    <div>
-                        <img className="caroImg" src={"https://github.com/powerplantsnft/website/blob/main/42.png?raw=true"} alt='boy2' />
-                    </div>
-                    <div>
-                        <img className="caroImg" src={"https://github.com/powerplantsnft/website/blob/main/45.jpg?raw=true"} alt='boy1' />
-                    </div>
-                    <div>
-                        <img className="caroImg" src={"https://github.com/powerplantsnft/website/blob/main/53.jpg?raw=true"} alt='boy2' />
-                    </div>
-                    <div>
-                        <img className="caroImg" src={"https://github.com/powerplantsnft/website/blob/main/54.jpg?raw=true"} alt='boy2' />
-                    </div>
-                    <div>
-                        <img className="caroImg" src={"https://github.com/powerplantsnft/website/blob/main/7.png?raw=true"} alt='boy2' />
-                    </div>
-                </InfiniteCarousel>
-                        {/* <img src={MintGif} alt='mint gif' /> */}
+                        <img src={MintGif} alt='mint gif' />
                     </Col>
                     <Col md={6} xs={12} className='mint-description'>
                         <header style={{fontStyle: "normal"}}>MINT YOUR <text style={{ color: "white" }}>POWER PLANT</text>
