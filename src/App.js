@@ -23,11 +23,11 @@ import './assets/mainstyle.css'
 function App() {
   return (
     <div>
-      {/* <Header />*/}
-       {/* <State />
-      <About />  */}
+      <Header />
+       <State />
+      <About /> 
      <Utility className="utilitysec"/>
-    {/*  <Meet />
+     <Meet />
 
        <Mint />
       <RoadMap />
@@ -35,7 +35,7 @@ function App() {
 
       <Team />
       <Partners />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }
