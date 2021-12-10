@@ -8,7 +8,7 @@ class Footer extends React.Component{
             <div className="footer_layout">
                 <div className="footer_section">
                     <div className="footer_text_room">
-                        <p className="footer_title">Partnerships</p>
+                        <p className="footer_title">PARTNERSHIPS</p>
                     </div>
                     <div className="footer_bg_1">
                        

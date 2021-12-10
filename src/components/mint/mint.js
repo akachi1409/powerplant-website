@@ -106,7 +106,7 @@ function Mint() {
                             <span id="inputBox" style={{color: "white"}}>{mintNum}</span>
                             <BsFilePlusFill color='white' size={40} onClick={() => plus_num()} />
                         </div>
-                        <p style={{marginTop: 0, marginBottom: 0}}>0.08 ETH + Gas</p>
+                        <p style={{marginTop: 0, marginBottom: 0}}>0.1 ETH + Gas</p>
                         {
                             blockchain.account === "" || blockchain.smartContract === null ?
                                 <div className="flex-column">

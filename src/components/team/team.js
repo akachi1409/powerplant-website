@@ -51,7 +51,7 @@ class Team extends React.Component {
         return (
             <div className='team-control' id='team'>
                 <Container>
-                    <header style={{fontStyle: "normal", color:"white"}}> Team Members </header>
+                    <header style={{fontStyle: "normal", color:"white"}}> TEAM MEMBERS </header>
                     <Row>
                         <Col className="team-control-card" md={6} xs={12} >
                             <TeamMember

@@ -1,6 +1,6 @@
 import React from "react";
 
-import Logo from '../../assets/logo.jpg'
+
 import il from '../../assets/CenterPic.png'
 import il2 from '../../assets/Pink Caladium.webp'
 // import { Container, Row, Col } from "react-bootstrap";
@@ -32,6 +32,7 @@ function onMintClick(){
 
 }
 function onHomeClick() {
+    console.log("---")
     document.getElementById("home").scrollIntoView();
 }
 function onTeamClick() {
@@ -61,7 +62,7 @@ class Header extends React.Component {
     render() {
         return (
             <>
-                <div className='header-control'>
+                <div className='header-control' id="home">
                     <Navbar collapseOnSelect expand="lg">
                         <Container>
                             <Navbar.Brand href="#home" style={{ paddingTop: 10 }}>
@@ -98,7 +99,7 @@ class Header extends React.Component {
                             <Row>
                                 <Col md={6} xs={12} className='about-description' style={{ textAlign: "left" }}>
                                     <header>
-                                        <span className="home-title" >THE NEW GENERATION<br /> OF PLANTS</span>
+                                        <span className="home-title" >THE NEXT GENERATION<br /> OF PLANTS</span>
                                         {/* <span style={{ color: "white", fontStyle: "normal" }}>No watering required.<br /></span> */}
                                     </header>
                                     <p className="home-title-content">
